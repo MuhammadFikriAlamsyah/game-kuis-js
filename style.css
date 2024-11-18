@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0; /* Warna latar belakang yang lembut */
+}
+
+#soal-container {
+    border: 2px solid #007bff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        
+  }
+
+#quiz-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 150px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to bottom right, #f0f0f0, #c2e59c );
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    background-image: linear-gradient(to right, #4CAF50, #339966);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #339966, #4CAF50);
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#pilihan-jawaban button {
+    margin: 5px; /* Jarak antar tombol jawaban */
+}
+
+.container {
+    /* Gaya yang sama seperti pada halaman kuis */
+    width: 80%;
+    margin: 0 auto;
+    padding: 150px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to bottom right, #f0f0f0, #c2e59c );
+}
+
+.jawaban {
+    /* Gaya untuk menampilkan jawaban */
+    margin-top: 20px;
+}
+
+.jawaban p {
+    /* Gaya untuk setiap jawaban */
+    margin: 10px 0;
+}
+

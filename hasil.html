@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hasil Kuis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hasil Kuis</h1>
+        <p>Skor Anda: <span id="skor"></span></p>
+        <div class="jawaban">
+            </div>
+        <button id="ulang">Ulangi Kuis</button>
+    </div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const skor = urlParams.get('skor');
+        document.getElementById("skor").textContent = skor;
+        
+        const ulangButton = document.getElementById("ulang");
+
+        ulangButton.addEventListener("click", () => {
+        window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html> 
